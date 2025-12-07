@@ -1,0 +1,17 @@
+# Test Configuration for PromptAlbumBuilder
+
+source_folder: "demo_photos/input"
+target_albums_folder: "demo_photos/output"
+
+supported_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  - .heic
+  - .raw
+  - .cr2
+  - .nef
+
+logging:
+  level: INFO
+  log_dir: logs

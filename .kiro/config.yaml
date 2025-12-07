@@ -1,0 +1,32 @@
+# PromptAlbumBuilder Configuration File
+# 
+# This file configures the source and target directories for photo organization.
+# Update the paths below to match your local directory structure.
+
+# Source folder containing photos to organize
+# This should be the path to your unorganized photo collection
+# Example (Windows): "C:/Users/YourName/Pictures/Unsorted"
+# Example (Mac/Linux): "/Users/YourName/Pictures/Unsorted"
+source_folder: "/path/to/your/photos"
+
+# Target folder where organized albums will be created
+# Albums will be created as subdirectories within this folder
+# Example (Windows): "C:/Users/YourName/Pictures/Albums"
+# Example (Mac/Linux): "/Users/YourName/Pictures/Albums"
+target_albums_folder: "/path/to/your/albums"
+
+# Optional: Supported image file extensions
+# The system will process files with these extensions
+supported_extensions:
+  - .jpg
+  - .jpeg
+  - .png
+  - .heic
+  - .raw
+  - .cr2
+  - .nef
+
+# Optional: Logging configuration
+logging:
+  level: INFO
+  log_dir: logs
